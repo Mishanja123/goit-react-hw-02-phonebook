@@ -4,7 +4,7 @@ align-items: center;
 gap: 16px;
 }
 .deleteBtn {
-  background-color: #04AA6D;
+  background-color: #ff3333;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -12,5 +12,5 @@ gap: 16px;
   cursor: pointer;
 }
 .deleteBtn:hover {
-    background-color: #09AB9B;
+    background-color: #ff0000;
 }
