@@ -18,7 +18,8 @@ export class ContactsForm extends Component {
     const contactNumber = event.currentTarget.elements.number.value
     const contactId = nanoid()
     this.addContact(contactName, contactNumber, contactId)
-    event.currentTarget.reset(event)
+    event.currentTarget.reset()
+    this.setState({ name: '', number: '' });
   }
   handleChange = ({ target: { name, value } }) => {
     this.setState({ [name]: value });
